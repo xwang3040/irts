@@ -1,0 +1,40 @@
+[project]
+name = "irts"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Wang, Xingjian", email = "xwang3040@gatech.edu" }
+]
+dependencies = [
+    "jupyter>=1.1.1",
+    "ipykernel>=7.1.0",
+    "pandas>=2.3.3",
+    "numpy>=2.3.4",
+    "matplotlib>=3.10.7",
+    "torch>=2.9.1",
+    "scikit-learn>=1.7.2",
+    "gpytorch>=1.14.2",
+    "tqdm>=4.67.1",
+    "openai>=2.7.2",
+    "google>=3.0.0",
+    "google-genai>=1.51.0",
+    "python-dotenv>=1.2.1",
+    "openpyxl>=3.1.5",
+    "statsmodels>=0.14.5",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/irts"]
