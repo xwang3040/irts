@@ -82,5 +82,5 @@ We mimicked real-world forecasting by revealing only a partial segment of the 20
 
 ## 📁 Files
 
-* **📘 Full Write-Up (PDF):** [`writeup.pdf`](./writeup.pdf)
+* **📘 Full Write-Up (PDF):** [`CSE8803_Final.pdf`](./CSE8803_Final.pdf)
 * **🗂️ Software Package (tar.gz):** [`irts-main.zip`](./irts-main.zip)
